@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  background-color: #333;
+  height: 100%;
+  width: 100%;
+}
+
+.mainnav {
+  padding: 20px;
+  background-color: #222;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 10px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 6px;
+  border-style: none;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
